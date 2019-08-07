@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>fapc_core</RootNamespace>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controller\Service\**" />
+    <Compile Remove="Deploy\Linux\**" />
+    <Compile Remove="Deploy\Mac\**" />
+    <Compile Remove="PageObjects\Service\**" />
+    <EmbeddedResource Remove="Controller\Service\**" />
+    <EmbeddedResource Remove="Deploy\Linux\**" />
+    <EmbeddedResource Remove="Deploy\Mac\**" />
+    <EmbeddedResource Remove="PageObjects\Service\**" />
+    <None Remove="Controller\Service\**" />
+    <None Remove="Deploy\Linux\**" />
+    <None Remove="Deploy\Mac\**" />
+    <None Remove="PageObjects\Service\**" />
+    <SpecFlowFeatureFiles Remove="Controller\Service\**" />
+    <SpecFlowFeatureFiles Remove="Deploy\Linux\**" />
+    <SpecFlowFeatureFiles Remove="Deploy\Mac\**" />
+    <SpecFlowFeatureFiles Remove="PageObjects\Service\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Controller\Service\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Deploy\Linux\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Deploy\Mac\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="PageObjects\Service\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Deploy\IosConfig.json" />
+    <None Remove="Deploy\WebConfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Gravity.Drivers.Appium" Version="2019.7.2.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
+    <PackageReference Include="Node.js" Version="5.3.0" />
+    <PackageReference Include="RestSharp" Version="106.6.9" />
+    <PackageReference Include="SpecFlow" Version="3.0.225" />
+    <PackageReference Include="SpecFlow.MsTest" Version="3.0.225" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.0.225" />
+    <PackageReference Include="TestLinkApi.NetCore" Version="1.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Deploy\IosConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Deploy\WebConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
