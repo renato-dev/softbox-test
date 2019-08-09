@@ -93,7 +93,7 @@ namespace automation_core
             Random num = new Random();
             DC_JsonObject originalJson = new DC_JsonObject();
             originalJson = JsonConvert.DeserializeObject<DC_JsonObject>(json);
-            originalJson.NomeProjeto = string.Concat(originalJson.NomeProjeto + num.Next(1000));
+            originalJson.NomeTarefa = string.Concat(originalJson.NomeTarefa + num.Next(1000));
             return originalJson;
         }
 

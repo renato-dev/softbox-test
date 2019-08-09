@@ -1,5 +1,10 @@
 ﻿{
 
-    "NomeProjeto": "teste"
+  "NomeTarefa": "teste",
+  "Tipo": "Bug",
+  "Situacao": "New",
+  "Prioridade": "Normal",
+  "Tarefa29": "Automação softbox",
+  "Tarefa30": "teste automatizado"
 
 }

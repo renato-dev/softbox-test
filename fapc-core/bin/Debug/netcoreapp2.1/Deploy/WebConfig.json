@@ -1,9 +1,10 @@
 {
     "Url": "http://demo.redmine.org/",
-    "User": "testewhqwsdqd",
+    "User": "testegraadeusfinal",
     "Password": "12345678",
-    "Nome": "Renatso",
-    "Sobrenome": "Bernarsdes",
-    "Email": "emailemail@hotmail.com"
+    "Nome": "Renato",
+    "Sobrenome": "Bernardes",
+  "Email": "fasdinaltest@hotmail.com",
+    "NomeProjeto" :  "kalombro"
 }
    

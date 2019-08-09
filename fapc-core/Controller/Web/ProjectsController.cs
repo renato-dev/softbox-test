@@ -20,11 +20,11 @@ namespace automation_core.Controller.Web
             Logger = $"Preenchendo nome da tarefa";
             ProjectsPage.InputNome.SendKeys(text);
         }
-        public static void PreenchendoDescricao(string text)
+        /*public static void PreenchendoDescricao(string text)
         {
             Logger = $"Preenchendo descricao da tarefa";
             ProjectsPage.InputDescricao.SendKeys(text);
-        }
+        }*/
         public static void SelecionandoTipoDeTarefaBug ()
         {
             Logger = $"Marcando tipo Bug";
@@ -37,6 +37,31 @@ namespace automation_core.Controller.Web
             ProjectsPage.InputNome.SendKeys(text);
 
         }
+        
+        public static void ClickCriarContinuar(int i)
+        {
+            Logger = $"Clicando em Criar e Continuar";
+            ProjectsPage.ClickCriarContinuar.Click(i);
+        }
+        public static void BotaoCriar()
+        {
+            Logger = $"Clicando no botao criar";
+            ProjectsPage.ClicaCriar.Click();
+        }
+        public static void CriaProjeto()
+        {
+            ProjectsController.NomeDoProjeto(Ambiente.NomeProjeto);
+            ProjectsController.SelecionandoTipoDeTarefaBug();
+            ProjectsController.BotaoCriar();
+        }
+
+        
+        public static void ClicarTarefas()
+        {
+            Logger = $"Clicando em Ver todas as tarefas";
+            ProjectsPage.ClicarTarefas.Click();
+        }
+    
         
     }
 }

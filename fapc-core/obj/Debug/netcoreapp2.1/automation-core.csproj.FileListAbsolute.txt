@@ -33,3 +33,21 @@ C:\Users\Arcade Games\Desktop\git\fapc-core\obj\Debug\netcoreapp2.1\automation-c
 C:\Users\Arcade Games\Desktop\git\fapc-core\obj\Debug\netcoreapp2.1\automation-core.dll
 C:\Users\Arcade Games\Desktop\git\fapc-core\obj\Debug\netcoreapp2.1\automation-core.pdb
 C:\Users\Arcade Games\Desktop\git\fapc-core\bin\Debug\netcoreapp2.1\Deploy\JsonValores.json
+C:\Users\renato.neto\Desktop\git\git\fapc-core\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\renato.neto\Desktop\git\git\fapc-core\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\renato.neto\Desktop\git\git\fapc-core\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\renato.neto\Desktop\git\git\fapc-core\bin\Debug\netcoreapp2.1\Deploy\IosConfig.json
+C:\Users\renato.neto\Desktop\git\git\fapc-core\bin\Debug\netcoreapp2.1\Deploy\JsonValores.json
+C:\Users\renato.neto\Desktop\git\git\fapc-core\bin\Debug\netcoreapp2.1\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+C:\Users\renato.neto\Desktop\git\git\fapc-core\bin\Debug\netcoreapp2.1\Deploy\WebConfig.json
+C:\Users\renato.neto\Desktop\git\git\fapc-core\bin\Debug\netcoreapp2.1\automation-core.deps.json
+C:\Users\renato.neto\Desktop\git\git\fapc-core\bin\Debug\netcoreapp2.1\automation-core.runtimeconfig.json
+C:\Users\renato.neto\Desktop\git\git\fapc-core\bin\Debug\netcoreapp2.1\automation-core.runtimeconfig.dev.json
+C:\Users\renato.neto\Desktop\git\git\fapc-core\bin\Debug\netcoreapp2.1\automation-core.dll
+C:\Users\renato.neto\Desktop\git\git\fapc-core\bin\Debug\netcoreapp2.1\automation-core.pdb
+C:\Users\renato.neto\Desktop\git\git\fapc-core\obj\Debug\netcoreapp2.1\automation-core.csprojAssemblyReference.cache
+C:\Users\renato.neto\Desktop\git\git\fapc-core\obj\Debug\netcoreapp2.1\automation-core.csproj.CoreCompileInputs.cache
+C:\Users\renato.neto\Desktop\git\git\fapc-core\obj\Debug\netcoreapp2.1\automation-core.AssemblyInfoInputs.cache
+C:\Users\renato.neto\Desktop\git\git\fapc-core\obj\Debug\netcoreapp2.1\automation-core.AssemblyInfo.cs
+C:\Users\renato.neto\Desktop\git\git\fapc-core\obj\Debug\netcoreapp2.1\automation-core.dll
+C:\Users\renato.neto\Desktop\git\git\fapc-core\obj\Debug\netcoreapp2.1\automation-core.pdb
