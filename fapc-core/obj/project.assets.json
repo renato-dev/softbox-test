@@ -6116,23 +6116,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\renato.neto\\.nuget\\packages\\": {},
+    "C:\\Users\\Arcade Games\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renato.neto\\Desktop\\fapc-core\\fapc-core\\automation-core.csproj",
+      "projectUniqueName": "C:\\Users\\Arcade Games\\Desktop\\git\\fapc-core\\automation-core.csproj",
       "projectName": "automation-core",
-      "projectPath": "C:\\Users\\renato.neto\\Desktop\\fapc-core\\fapc-core\\automation-core.csproj",
-      "packagesPath": "C:\\Users\\renato.neto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renato.neto\\Desktop\\fapc-core\\fapc-core\\obj\\",
+      "projectPath": "C:\\Users\\Arcade Games\\Desktop\\git\\fapc-core\\automation-core.csproj",
+      "packagesPath": "C:\\Users\\Arcade Games\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Arcade Games\\Desktop\\git\\fapc-core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\renato.neto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Arcade Games\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

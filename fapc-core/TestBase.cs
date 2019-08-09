@@ -40,6 +40,7 @@ namespace automation_core
         public static string Description = "";
         public static string Title = "";
         public static Ambiente Ambiente;
+        public static DC_JsonObject JsonValores;
         public static FrontEnd _FrontEnd;
         public static DriverType _DriverType;
         public static string ErrorMessage = "";
@@ -193,6 +194,22 @@ namespace automation_core
             string json = File.ReadAllText(configFile);
             Ambiente = new Ambiente();
             Ambiente = JsonConvert.DeserializeObject<Ambiente>(json);
+        }
+        public static void SetNomeProjeto(string configFile)
+        {
+            if (!File.Exists(configFile))
+            {
+                configFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Deploy", configFile);
+
+                if (!File.Exists(configFile))
+                {
+                    Assert.Inconclusive($"Não foi possível encontrar o arquivo: {configFile}");
+                }
+            }
+
+            string json = File.ReadAllText(configFile);
+            JsonValores = new DC_JsonObject();
+            JsonValores = Utils.JsonUser(json);
         }
 
         public static void ReadJson(string configFile)

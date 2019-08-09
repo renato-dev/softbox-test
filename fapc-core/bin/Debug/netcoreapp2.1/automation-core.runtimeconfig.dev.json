@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\renato.neto\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\renato.neto\\.nuget\\packages",
+      "C:\\Users\\Arcade Games\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Arcade Games\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }

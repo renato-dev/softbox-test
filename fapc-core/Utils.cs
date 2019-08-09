@@ -1,7 +1,9 @@
-﻿using OpenQA.Selenium;
+﻿using Newtonsoft.Json;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.Interfaces;
 using OpenQA.Selenium.Appium.MultiTouch;
+using System;
 using System.Collections.Generic;
 using System.Threading;
 
@@ -85,6 +87,14 @@ namespace automation_core
                     }
                 }
             }
+        }
+        public static DC_JsonObject JsonUser(string json)
+        {
+            Random num = new Random();
+            DC_JsonObject originalJson = new DC_JsonObject();
+            originalJson = JsonConvert.DeserializeObject<DC_JsonObject>(json);
+            originalJson.NomeProjeto = string.Concat(originalJson.NomeProjeto + num.Next(1000));
+            return originalJson;
         }
 
         public static void SendKeys(this By by, string text, int timeout = TestBase.DefaultTimeout, bool failIfNotExists = true)

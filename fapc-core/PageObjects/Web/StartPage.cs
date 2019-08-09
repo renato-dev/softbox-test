@@ -15,7 +15,6 @@ namespace automation_core.PageObjects.Web
         public static By InputSobrenome = By.CssSelector("#user_lastname");
         public static By InputEmail = By.CssSelector("#user_mail");
         public static By BotaoEnviar = By.CssSelector("input[type=submit]");
-
-        public static By BotaoLogin = By.CssSelector("input[type=submit]");
+                public static By BotaoLogin = By.CssSelector("input[type=submit]");
     }
 }
